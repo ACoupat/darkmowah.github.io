@@ -17,6 +17,7 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
+                                <p>{{ post.sources-link-title }} : <a target="_blank" href="{{post.sources-link}}"> {{post.project-name}}</a></p>
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.client %}
